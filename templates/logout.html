@@ -1,0 +1,13 @@
+{% extends 'index.html' %}
+{% load crispy_forms_tags %}
+{% block body %}
+<div class="container">
+    <h2>Logout Successfully.</h2>
+    <hr>
+    <h3>Do you want to <a href="{% url 'login' %}">Login again.</a></h3>
+</div>
+
+
+
+
+{% endblock body %}
